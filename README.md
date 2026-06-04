@@ -119,6 +119,9 @@ This troubleshooting exercise provided practical experience in debugging real-wo
 * Jenkins Master and Agent successfully connected.
 * Agent status displayed as **Online / In Sync**.
 
+![Agent Connected](screenshots/agent-online.png)
+
+
 ### Pipeline Verification
 
 The following commands were executed on the Remote Agent:
@@ -127,12 +130,15 @@ The following commands were executed on the Remote Agent:
 hostname
 whoami
 ```
+![Pipeline Success](screenshots/pipeline-success.png)
 
 ### Result
 
 * Build Status: **SUCCESS**
 * Execution Node: **remote-linux-node**
 * Jenkins successfully delegated the workload to the Remote Agent.
+
+![Console Output](screenshots/console-output.png)
 
 ---
 
